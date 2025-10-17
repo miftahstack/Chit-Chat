@@ -12,6 +12,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Container from "../Container";
 import Flex from "../Flex";
+import { Link } from "react-router";
 
 const Login = () => {
   return (
@@ -25,7 +26,9 @@ const Login = () => {
                 Enter your email below to login to your account
               </CardDescription>
               <CardAction>
+                <Link to={"/signup"}>
                 <Button variant="link">Sign Up</Button>
+                </Link>
               </CardAction>
             </CardHeader>
             <CardContent>
@@ -58,9 +61,6 @@ const Login = () => {
             <CardFooter className="flex-col gap-2">
               <Button type="submit" className="w-full">
                 Login
-              </Button>
-              <Button variant="outline" className="w-full">
-                Login with Google
               </Button>
             </CardFooter>
           </Card>
