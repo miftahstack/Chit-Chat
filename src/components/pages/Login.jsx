@@ -18,7 +18,7 @@ const Login = () => {
   return (
     <>
       <Container>
-        <Flex className={`justify-center mt-20 `}>
+        <Flex className={`justify-center mt-20`}>
           <Card className="w-full max-w-sm">
             <CardHeader>
               <CardTitle>Login to your account</CardTitle>
