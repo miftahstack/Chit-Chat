@@ -26,9 +26,9 @@ const SignUp = () => {
                 Enter your email below to login to your account
               </CardDescription>
               <CardAction>
-             <Link to={"/login"}>
-                <Button variant="link">Login</Button>
-              </Link>
+                <Link to={"/login"}>
+                  <Button variant="link">Login</Button>
+                </Link>
               </CardAction>
             </CardHeader>
             <CardContent>
@@ -60,7 +60,7 @@ const SignUp = () => {
             </CardContent>
             <CardFooter className="flex-col gap-2">
               <Button type="submit" className="w-full">
-               Sign Up
+                Sign Up
               </Button>
             </CardFooter>
           </Card>
