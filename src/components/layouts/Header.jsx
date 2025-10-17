@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <>
       <Container>
-        <Flex className={`justify-between mt-5`}>
+        <Flex className={`justify-between pt-5`}>
           <div className="">
             <img className=" w-10 scale-140" src={logo} alt="" />
           </div>
